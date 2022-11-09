@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    height: 60px;
+    background-color: darkslateblue;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+header p{
+    font-size: 20px;
+    color: white;
+}
+
+header p>a, span{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+header p>a:hover{
+    border-bottom: 2px solid rgb(40, 34, 78);
+}
+
+.radio_main{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.radio_main>label:nth-child(2){
+    margin-right: 20px;
+}
+
+.info_plan{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_plan input, .info_plan select{
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.info_plan input:last-child{
+    background-color: darkslateblue;
+    color: white;
+    border: none;
+}
+
+.info_plan input:last-child:hover{
+    box-shadow: 0px 0px 5px 1px lightcoral;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: lightgray;
+}
+
+.info_plan span{
+    color: lightgray;
+}
+
+body{
+    background-color: antiquewhite;
+    height: 100vh;
+}
+
+.form_check{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+h4{
+    color: darkslateblue;
+    margin-bottom: 10px;
+}
+
+.backing{
+    margin-bottom: 20px;
+}
+
+.wrap{
+    display: flex;
+
+}
+
+.size input{
+    width: 80px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+} 
+
+.left{
+    margin-left: 5px;
+}
+
+.form_table{
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.flex_forms{
+    display: flex;
+    justify-content: space-between;
+}
+
+th{
+    min-width: 123px;
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
+
+tr{
+    border-bottom: 1px solid lightgray;
+}
+
+.up_main_first th{
+    padding: 30px;
+}
+
+.up_main{
+    background-color: antiquewhite;
+}
+
+.up_main>th{
+    color: darkslateblue;
+    padding: 10px;
+    font-size: 14px;
+}
+
+table{
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.indent_period td{
+    padding: 20px 0;
+}
+
+.size_p{
+    font-size: 12px;
+    color: gray;
+}
+
+.last{
+    border: none;
+    height: 40px;
+}
+
+.input_book>input{
+    background-color: darkslateblue;
+    border: none;
+    min-width: 70px;
+    padding: 5px 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.input_book>input:hover{
+    box-shadow: 0px 0px 5px 1px lightcoral;
+    cursor: pointer;
+}
+
+.input_book>p>a{
+    font-size: 12px;
+    color: gray;
+    text-decoration: none;
+}
+
+.input_book>p>a:hover{
+    box-shadow: 0px 0px 5px 1px lightcoral;
+}
